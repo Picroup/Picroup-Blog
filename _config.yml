@@ -3,7 +3,7 @@ email:             picourp@gmail.com
 description:       官方博客
 author:            Picroup
 baseurl:           "/Picroup-Blog"
-url:               "https://picroup.github.io/Picroup-Blog"
+url:               "https://picroup.github.io"
 
 # Social Profiles
 // twitter_username:  SBootstrap
