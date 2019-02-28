@@ -2,7 +2,7 @@ title:             Picroup
 email:             picourp@gmail.com
 description:       官方博客
 author:            Picroup
-baseurl:           ""
+baseurl:           "/Picroup-Blog"
 url:               "https://picroup.github.io/Picroup-Blog"
 
 # Social Profiles
