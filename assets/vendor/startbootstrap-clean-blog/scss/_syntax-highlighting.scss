@@ -1,0 +1,290 @@
+//colors
+$color_rum_swizzle_approx: #faf6e4;
+$color_big_stone_approx: #122b3b;
+$color_mercury_approx: #dee5e7;
+$color_scarpa_flow_approx: #4e5d62;
+$color_bermuda_gray_approx: #6c8b9f;
+$color_sulu_approx: #b2fd6d;
+$color_apricot_white_approx: #fefeec;
+$color_guardsman_red_approx: #cc0000;
+$color_energy_yellow_approx: #f6dd62;
+$color_turquoise_blue_approx: #4df4ff;
+$color_lavender_rose_approx: #f696db;
+$color_yellow_sea_approx: #ffb000;
+$color_vis_vis_approx: #fff0a6;
+$color_mountain_mist_approx: #999999;
+$color_pink_swan_approx: #bbbbbb;
+$color_anakiwa_approx: #a8e1fe;
+
+.highlight {
+	color: $color_rum_swizzle_approx;
+    background-color: $color_big_stone_approx;
+    
+    .highlighter-rouge & {
+        padding: 8px;
+    }
+	table {
+		td {
+			padding: 5px;
+		}
+		pre {
+			margin: 0;
+		}
+	}
+	.gl {
+		color: $color_mercury_approx;
+		background-color: $color_scarpa_flow_approx;
+	}
+	.c {
+		color: $color_bermuda_gray_approx;
+		font-style: italic;
+	}
+	.cd {
+		color: $color_bermuda_gray_approx;
+		font-style: italic;
+	}
+	.cm {
+		color: $color_bermuda_gray_approx;
+		font-style: italic;
+	}
+	.c1 {
+		color: $color_bermuda_gray_approx;
+		font-style: italic;
+	}
+	.cs {
+		color: $color_bermuda_gray_approx;
+		font-style: italic;
+	}
+	.cp {
+		color: $color_sulu_approx;
+		font-weight: bold;
+		font-style: italic;
+	}
+	.err {
+		color: $color_apricot_white_approx;
+		background-color: $color_guardsman_red_approx;
+	}
+	.gr {
+		color: $color_apricot_white_approx;
+		background-color: $color_guardsman_red_approx;
+	}
+	.k {
+		color: $color_energy_yellow_approx;
+		font-weight: bold;
+	}
+	.kd {
+		color: $color_energy_yellow_approx;
+		font-weight: bold;
+	}
+	.kv {
+		color: $color_energy_yellow_approx;
+		font-weight: bold;
+	}
+	.o {
+		color: $color_turquoise_blue_approx;
+	}
+	.ow {
+		color: $color_turquoise_blue_approx;
+	}
+	.p {
+		color: $color_turquoise_blue_approx;
+	}
+	.pi {
+		color: $color_turquoise_blue_approx;
+	}
+	.gd {
+		color: $color_guardsman_red_approx;
+	}
+	.gi {
+		color: $color_sulu_approx;
+	}
+	.ge {
+		font-style: italic;
+	}
+	.gs {
+		font-weight: bold;
+	}
+	.gt {
+		color: $color_mercury_approx;
+		background-color: $color_scarpa_flow_approx;
+	}
+	.kc {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.kn {
+		color: $color_yellow_sea_approx;
+		font-weight: bold;
+	}
+	.kp {
+		color: $color_yellow_sea_approx;
+		font-weight: bold;
+	}
+	.kr {
+		color: $color_yellow_sea_approx;
+		font-weight: bold;
+	}
+	.gh {
+		color: $color_yellow_sea_approx;
+		font-weight: bold;
+	}
+	.gu {
+		color: $color_yellow_sea_approx;
+		font-weight: bold;
+	}
+	.kt {
+		color: $color_sulu_approx;
+		font-weight: bold;
+	}
+	.no {
+		color: $color_sulu_approx;
+		font-weight: bold;
+	}
+	.nc {
+		color: $color_sulu_approx;
+		font-weight: bold;
+	}
+	.nd {
+		color: $color_sulu_approx;
+		font-weight: bold;
+	}
+	.nn {
+		color: $color_sulu_approx;
+		font-weight: bold;
+	}
+	.bp {
+		color: $color_sulu_approx;
+		font-weight: bold;
+	}
+	.ne {
+		color: $color_sulu_approx;
+		font-weight: bold;
+	}
+	.nl {
+		color: $color_yellow_sea_approx;
+		font-weight: bold;
+	}
+	.nt {
+		color: $color_yellow_sea_approx;
+		font-weight: bold;
+	}
+	.m {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.mf {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.mh {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.mi {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.il {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.mo {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.mb {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.mx {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.ld {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.ss {
+		color: $color_lavender_rose_approx;
+		font-weight: bold;
+	}
+	.s {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.sb {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.sd {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.s2 {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.sh {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.sx {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.sr {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.s1 {
+		color: $color_vis_vis_approx;
+		font-weight: bold;
+	}
+	.se {
+		color: $color_turquoise_blue_approx;
+		font-weight: bold;
+	}
+	.sc {
+		color: $color_turquoise_blue_approx;
+		font-weight: bold;
+	}
+	.si {
+		color: $color_turquoise_blue_approx;
+		font-weight: bold;
+	}
+	.nb {
+		font-weight: bold;
+	}
+	.ni {
+		color: $color_mountain_mist_approx;
+		font-weight: bold;
+	}
+	.w {
+		color: $color_pink_swan_approx;
+	}
+	.nf {
+		color: $color_anakiwa_approx;
+	}
+	.py {
+		color: $color_anakiwa_approx;
+	}
+	.na {
+		color: $color_anakiwa_approx;
+	}
+	.nv {
+		color: $color_anakiwa_approx;
+		font-weight: bold;
+	}
+	.vc {
+		color: $color_anakiwa_approx;
+		font-weight: bold;
+	}
+	.vg {
+		color: $color_anakiwa_approx;
+		font-weight: bold;
+	}
+	.vi {
+		color: $color_anakiwa_approx;
+		font-weight: bold;
+	}
+}
