@@ -29,7 +29,6 @@ layout: default
 
         {{ content }}
 
-        <!-- Home Post List -->
         {% for post in site.posts limit : 5 %}
 
         <article class="post-preview">
@@ -40,15 +39,14 @@ layout: default
             {% else %}
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
-          </a>
-          <p class="post-meta">Posted by
+          </a><p class="post-meta">由
             {% if post.author %}
             {{ post.author }}
             {% else %}
             {{ site.author }}
             {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
+            于 {{ post.date | date: '%Y 年 %m 月 %d 日' }}发布 &middot; {% include read_time.html content=post.content %}
+          </p>
         </article>
 
         <hr>
@@ -57,7 +55,7 @@ layout: default
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">查看全部 &rarr;</a>
         </div>
 
       </div>
